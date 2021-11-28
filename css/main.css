@@ -26,6 +26,7 @@ body {
 
 .button-list__button {
   color: #212121;
+  background-color: #f5f4fa;
 }
 
 .portfolio-items-list__project-name {
@@ -190,7 +191,8 @@ body {
   border: 1px solid #2196f3;
 }
 
-.modal__form input:hover + .modal__icon-name {
+.modal__form input:hover + .modal__icon-name,
+.modal__form input:focus + .modal__icon-name {
   fill: #2196f3;
 }
 

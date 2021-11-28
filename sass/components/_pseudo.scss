@@ -118,7 +118,8 @@
 // }
 
 .modal__icon-name {
-  .modal__form input:hover + & {
+  .modal__form input:hover + &,
+  .modal__form input:focus + & {
     fill: $accent-color;
   }
 }
