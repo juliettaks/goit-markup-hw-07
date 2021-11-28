@@ -232,4 +232,31 @@ body {
 .modal__form textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
 /*# sourceMappingURL=main.css.map */
