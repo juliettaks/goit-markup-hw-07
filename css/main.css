@@ -496,4 +496,61 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
+.what-we-are-doing {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.second-heroes {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.what-we-are-doing__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.what-we-are-doing__list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.what-we-are-doing__list-item {
+  position: relative;
+}
+
+.what-we-are-doing__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgba(47, 48, 58, 0.8);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 370px;
+  height: 70px;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=main.css.map */
