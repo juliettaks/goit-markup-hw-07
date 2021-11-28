@@ -1,3 +1,17 @@
+.header-list__active {
+  display: block;
+}
+.header-list__active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  bottom: 0;
+  height: 4px;
+
+  position: absolute;
+  border-radius: 2px;
+}
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
